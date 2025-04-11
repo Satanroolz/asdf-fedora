@@ -8,7 +8,8 @@ dnf install perl
 sleep 1
 dnf install zlib-devel
 echo "Still installing..."
-sleep dnf install libffi-devel
+sleep 1
+dnf install libffi-devel
 sleep 1
 dnf install libyaml-devel
 echo "Dependancies satisfied, installing asdf."
